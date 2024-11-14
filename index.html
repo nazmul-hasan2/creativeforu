@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/004879db08.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>Creative For You</title>
+</head>
+<body class="font-plus">
+  <!-- Header section -->
+  <header class="px-4 py-2 md:px-14 md:py-4">
+    <nav class="container mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-1 md:gap-3">
+        <a href=""><img src="assets/logo.png" alt="Creative For You" class="h-8 md:h-12"></a>
+      </div>
+
+      <!-- Hamburger button -->
+      <div class="sm:hidden flex items-center">
+        <button id="menu-btn" class="focus:outline-none">
+          <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+
+
+      <div class="hidden sm:flex items-center gap-4">
+        <ul class="flex">
+          <li><a href="" class="px-3 py-2 text-sm font-medium md:text-md">Home</a></li>
+          <li><a href="" class="text-[#F44335] px-3 py-2 text-sm font-medium md:text-md">About Us</a></li>
+          <li><a href="" class="px-3 py-2 text-sm font-medium md:text-md">Upskill</a></li>
+          <li><a href="" class="px-3 py-2 text-sm font-medium md:text-md">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="hidden sm:flex items-center gap-2 md:gap-7">
+        <button
+          class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-red-600 transition hover:scale-105 hover:translate-y-1">
+          Register Interest
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="sm:hidden hidden flex-col items-center w-full shadow-lg">
+      <ul class="flex flex-col text-center w-full">
+        <li><a href="" class="block px-3 py-2 text-sm font-medium">Home</a></li>
+        <li><a href="" class="block text-[#F44335] px-3 py-2 text-sm font-medium">About Us</a></li>
+        <li><a href="" class="block px-3 py-2 text-sm font-medium">Upskill</a></li>
+        <li><a href="" class="block px-3 py-2 text-sm font-medium">Contact Us</a></li>
+        <!-- Register Interest Button in Mobile Menu -->
+        <li>
+          <button
+            class="bg-[#F44335] w-full text-sm md:font-medium py-2 px-4 rounded-md text-white font-semibold hover:bg-red-600 transition">
+            Register Interest
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
